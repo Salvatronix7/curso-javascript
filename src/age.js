@@ -16,7 +16,7 @@ function getAgeType(age) {
 }
 
 function isBoy(age) {
-    
+
     if (age < AGE_MIN_ADULT) {
         return true
     } else {
@@ -25,12 +25,7 @@ function isBoy(age) {
 }
 
 function isAdult(age) {
-
-    if (age >= AGE_MIN_ADULT) {
-        return true
-    } else {
-        return false
-    }
+    return !isBoy(age);
 }
 
 module.exports = {

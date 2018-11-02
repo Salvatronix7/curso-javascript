@@ -1,3 +1,21 @@
 Pasar valores por valor o por referencia.
 
-bar + 1;
+code smells = if(isBoy === true)
+
+esto
+
+function isAdult(age) {
+
+    if (!isBoy(age)) {
+        return true
+    } else {
+        return false
+    }
+}
+
+por esto
+
+
+function isAdult(age) {
+    return !isBoy(age);
+}

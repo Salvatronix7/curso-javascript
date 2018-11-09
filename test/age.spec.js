@@ -1,5 +1,5 @@
-var age = require('../src/age.js')
-var expect = require('expect.js')
+var age = require('../src/age.js');
+var expect = require('expect.js');
 
 describe('age.js', function () {
     describe('getAgeType', function () {

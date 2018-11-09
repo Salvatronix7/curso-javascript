@@ -1,5 +1,8 @@
 Pasar valores por valor o por referencia.
 
+predicados devuelven true or false
+
+
 code smells = if(isBoy === true)
 
 esto
